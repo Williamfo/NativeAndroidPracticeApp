@@ -8,16 +8,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="hb.tedi.willapp.MainActivity" >
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button1"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="86dp"
-        android:text="@string/howdy_stranger"
-        android:textSize="38sp" />
-
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
@@ -43,5 +33,14 @@
         android:onClick="goToA"
         android:text="@string/goa1"
         android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/howdy_stranger"
+        android:textSize="38sp" />
 
 </RelativeLayout>
