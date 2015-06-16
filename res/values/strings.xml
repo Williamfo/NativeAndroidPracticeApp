@@ -4,10 +4,12 @@
     <string name="app_name">WillApp</string>
     <string name="howdy_stranger">Howdy, stranger!</string>
     <string name="action_settings">Settings</string>
-    <string name="goa1">Go to Activity2!</string>
+    <string name="goa1">Activity 2!</string>
     <string name="title_activity_my">MyActivity</string>
-    <string name="button2">Go to Activity3!</string>
+    <string name="button2">Activity 3!</string>
     <string name="buttonback">Back to Main Activity</string>
     <string name="act2">You\'re on Activity 2</string>
+    <string name="gps">x,y</string>
+    <string name="button3">Activity 4!</string>
 
 </resources>

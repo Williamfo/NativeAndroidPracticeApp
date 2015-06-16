@@ -8,32 +8,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="hb.tedi.willapp.MainActivity" >
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:minHeight="96dp"
-        android:text="@string/button2"
-        android:textSize="24sp"
-        android:onClick="goTo3"
-         />
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/button2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginBottom="20dp"
-        android:minHeight="96dp"
-        android:onClick="goToA"
-        android:text="@string/goa1"
-        android:textSize="24sp" />
-
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
@@ -42,5 +16,40 @@
         android:layout_centerHorizontal="true"
         android:text="@string/howdy_stranger"
         android:textSize="38sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:minHeight="96dp"
+        android:onClick="goTo3"
+        android:text="@string/button2"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:minHeight="96dp"
+        android:onClick="goToA"
+        android:text="@string/goa1"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:minHeight="96dp"
+        android:onClick="goTo4"
+        android:text="@string/button3"
+        android:textSize="24sp" />
 
 </RelativeLayout>
