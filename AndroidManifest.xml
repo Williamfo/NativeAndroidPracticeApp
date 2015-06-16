@@ -1,23 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest android:versionCode="1" android:versionName="1.0"
-    package="hb.tedi.willapp" xmlns:android="http://schemas.android.com/apk/res/android">
-    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="14"/>
-    <application android:allowBackup="true"
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hb.tedi.willapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="14" />
+
+    <application
+        android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name" android:theme="@android:style/Theme.Material">
-        <activity android:label="@string/app_name" android:name=".MainActivity">
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Material.Light" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:label="@string/title_activity_my" android:name=".MyActivity"/>
-        <!--created by ADT ext plugin at 2015-06-12 13:41:31-->
-        <activity android:name=".ThirdActivity"/>
-        <!--created by ADT ext plugin at 2015-06-12 15:49:53-->
-        <activity android:name=".GPSActivity"/>
-        <!--created by ADT ext plugin at 2015-06-16 09:28:34-->
-        <activity android:name=".FourthActivity"/>
+        <activity
+            android:name=".MyActivity"
+            android:label="@string/title_activity_my" />
+        <!-- created by ADT ext plugin at 2015-06-12 13:41:31 -->
+        <activity android:name=".ThirdActivity" />
+        <!-- created by ADT ext plugin at 2015-06-12 15:49:53 -->
+        <activity android:name=".GPSActivity" />
+        <!-- created by ADT ext plugin at 2015-06-16 09:28:34 -->
+        <activity android:name=".FourthActivity" />
+        <activity
+            android:name=".FifthActivity"
+            android:label="@string/title_activity_fifth" >
+        </activity>
     </application>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
 </manifest>

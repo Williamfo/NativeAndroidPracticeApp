@@ -12,5 +12,8 @@
     <string name="gps">x,y</string>
     <string name="button3">Activity 4!</string>
     <string name="editable"></string>
+    <string name="title_activity_fifth">FifthActivity</string>
+    <string name="button4">Activity 5!</string>
+    
 
 </resources>
