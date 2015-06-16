@@ -4,7 +4,6 @@
 package hb.tedi.willapp;
 
 import android.app.Activity;
-import android.location.Location;
 import android.location.LocationManager;
 import android.os.Bundle;
 
@@ -51,13 +50,11 @@ public class GPSActivity extends Activity {
 		super.onDestroy();
 		// The activity is about to be destroyed.
 	}
+
 	String locationProvider = LocationManager.NETWORK_PROVIDER;
 	// Or use LocationManager.GPS_PROVIDER
 
-	Location lastKnownLocation = LocationManager.getLastKnownLocation(locationProvider);
-	
-	
-	
-	}
+	// Location lastKnownLocation =
+	// LocationManager.getLastKnownLocation(locationProvider);
 
 }

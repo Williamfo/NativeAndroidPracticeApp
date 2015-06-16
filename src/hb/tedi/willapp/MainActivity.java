@@ -46,4 +46,10 @@ public class MainActivity extends Activity {
 		startActivity(intent);
 	}
 
+	public void goTo4(View view) {
+
+		Intent intent = new Intent(MainActivity.this, FourthActivity.class);
+		startActivity(intent);
+	}
+
 }

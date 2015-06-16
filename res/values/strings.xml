@@ -11,5 +11,6 @@
     <string name="act2">You\'re on Activity 2</string>
     <string name="gps">x,y</string>
     <string name="button3">Activity 4!</string>
+    <string name="editable"></string>
 
 </resources>

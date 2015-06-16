@@ -4,9 +4,9 @@
 package hb.tedi.willapp;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
 
 /**
  * @author StaggerLee
@@ -16,9 +16,17 @@ public class FourthActivity extends Activity {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
+
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_fourth);
 		// The activity is being created.
+
+		TextView myText = (TextView) findViewById(R.id.textView1);
+		EditText et1 = (EditText) findViewById(R.id.et1);
+
+		myTextWatcher twatch = new myTextWatcher(myText);
+		et1.addTextChangedListener(twatch);
+
 	}
 
 	@Override
@@ -52,5 +60,4 @@ public class FourthActivity extends Activity {
 		// The activity is about to be destroyed.
 	}
 
-	public void 
 }

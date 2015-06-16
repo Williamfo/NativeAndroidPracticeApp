@@ -7,7 +7,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.RelativeLayout;
+import android.widget.EditText;
+import android.widget.GridLayout;
 import android.widget.TextView;
 
 /**
@@ -20,10 +21,15 @@ public class ThirdActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
-		RelativeLayout layout = new RelativeLayout(this);
+		GridLayout layout = new GridLayout(this);
+
 		TextView thirdtext = new TextView(this);
-		thirdtext.append("You're on the Third Activity!");
+		EditText et1 = new EditText(this);
+
 		layout.addView(thirdtext);
+		// thirdtext.append("Get Ready!");
+
+		layout.addView(et1);
 
 		setContentView(layout);
 
@@ -65,4 +71,5 @@ public class ThirdActivity extends Activity {
 		Intent intent = new Intent(ThirdActivity.this, MainActivity.class);
 		startActivity(intent);
 	}
+
 }
