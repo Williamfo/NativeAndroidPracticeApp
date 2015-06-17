@@ -1,21 +1,23 @@
 /**
  * 
  */
-package hb.tedi.willapp;
+package hb.tedi.willapp.activities;
 
+import hb.tedi.willapp.R;
 import android.app.Activity;
+import android.location.LocationManager;
 import android.os.Bundle;
 
 /**
  * @author StaggerLee
  *
  */
-public class ContactActivity extends Activity {
+public class GPSActivity extends Activity {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_contact);
+		setContentView(R.layout.activity_gps);
 		// The activity is being created.
 	}
 
@@ -49,5 +51,11 @@ public class ContactActivity extends Activity {
 		super.onDestroy();
 		// The activity is about to be destroyed.
 	}
+
+	String locationProvider = LocationManager.NETWORK_PROVIDER;
+	// Or use LocationManager.GPS_PROVIDER
+
+	// Location lastKnownLocation =
+	// LocationManager.getLastKnownLocation(locationProvider);
 
 }

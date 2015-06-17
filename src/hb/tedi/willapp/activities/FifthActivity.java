@@ -1,5 +1,6 @@
-package hb.tedi.willapp;
+package hb.tedi.willapp.activities;
 
+import hb.tedi.willapp.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -33,7 +34,7 @@ public class FifthActivity extends Activity {
 			public void onItemClick(AdapterView<?> adapter, View view,
 					int position, long arg) {
 				Intent contact = new Intent(FifthActivity.this,
-						ContactActivity.class);
+						FriendActivity.class);
 				startActivity(contact);
 			}
 		});

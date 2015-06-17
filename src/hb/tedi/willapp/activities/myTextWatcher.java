@@ -1,4 +1,4 @@
-package hb.tedi.willapp;
+package hb.tedi.willapp.activities;
 
 import android.text.Editable;
 import android.text.TextWatcher;

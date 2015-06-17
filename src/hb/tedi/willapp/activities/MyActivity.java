@@ -1,5 +1,6 @@
-package hb.tedi.willapp;
+package hb.tedi.willapp.activities;
 
+import hb.tedi.willapp.R;
 import android.app.Activity;
 import android.os.Bundle;
 

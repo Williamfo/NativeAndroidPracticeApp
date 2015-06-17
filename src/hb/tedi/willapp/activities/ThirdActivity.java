@@ -1,7 +1,7 @@
 /**
  * 
  */
-package hb.tedi.willapp;
+package hb.tedi.willapp.activities;
 
 import android.app.Activity;
 import android.content.Intent;
