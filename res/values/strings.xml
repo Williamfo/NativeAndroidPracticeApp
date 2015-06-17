@@ -14,6 +14,7 @@
     <string name="editable"></string>
     <string name="title_activity_fifth">FifthActivity</string>
     <string name="button4">List View!</string>
+    <string name="contactname">Dr. Steve Brule</string>
     
 
 </resources>

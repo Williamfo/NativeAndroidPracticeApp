@@ -1,9 +1,13 @@
 package hb.tedi.willapp;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -23,6 +27,16 @@ public class FifthActivity extends Activity {
 		}
 
 		list.setAdapter(adapter);
+
+		list.setOnItemClickListener(new OnItemClickListener() {
+			@Override
+			public void onItemClick(AdapterView<?> adapter, View view,
+					int position, long arg) {
+				Intent contact = new Intent(FifthActivity.this,
+						ContactActivity.class);
+				startActivity(contact);
+			}
+		});
 
 	}
 
@@ -44,4 +58,5 @@ public class FifthActivity extends Activity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
+
 }
