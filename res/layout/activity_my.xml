@@ -22,15 +22,7 @@
         android:text="@string/act2"
         android:textSize="38sp" />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_below="@+id/textView2"
-        android:minHeight="128dp"
-        android:onClick="goToMain"
-        android:text="@string/buttonback" />
+    
 
     <ImageView
         android:id="@+id/imageView1"

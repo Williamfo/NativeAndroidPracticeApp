@@ -4,16 +4,16 @@
     <string name="app_name">WillApp</string>
     <string name="howdy_stranger">Howdy, stranger!</string>
     <string name="action_settings">Settings</string>
-    <string name="goa1">Activity 2!</string>
+    <string name="goa1">Clock &#038; Pic</string>
     <string name="title_activity_my">MyActivity</string>
     <string name="button2">Activity 3!</string>
-    <string name="buttonback">Back to Main Activity</string>
+    
     <string name="act2">You\'re on Activity 2</string>
     <string name="gps">x,y</string>
-    <string name="button3">Activity 4!</string>
+    <string name="button3">Reversing Text!</string>
     <string name="editable"></string>
     <string name="title_activity_fifth">FifthActivity</string>
-    <string name="button4">Activity 5!</string>
+    <string name="button4">List View!</string>
     
 
 </resources>

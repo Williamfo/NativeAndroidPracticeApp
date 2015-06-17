@@ -16,11 +16,14 @@ public class FifthActivity extends Activity {
 
 		ListView list = (ListView) findViewById(R.id.listView1);
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(
-				list.getContext(), R.layout.activity_fifth, R.id.le_texte);
-		for (int i = 0; i < 40; i++) {
+				list.getContext(), R.layout.listitemlayout, R.id.le_texte);
+
+		for (int i = 1; i < 81; i++) {
 			adapter.add("Contact " + i);
 		}
+
 		list.setAdapter(adapter);
+
 	}
 
 	@Override
